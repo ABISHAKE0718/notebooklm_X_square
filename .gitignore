@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Chat and user memory
+chat_history.json
+memory.json
+
+# FAISS / vector databases
+source_indexes/
+vectorstore/
+
+# Uploaded PDFs
+data/sources/*.pdf
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
